@@ -1,15 +1,14 @@
 {
+  "homepage":"https://robertogl23.github.io/Frontend-Mentor-Chanlleger-1--Sass-and-Webpa",
   "name": "webpack-demo",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/bundle.js",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "predeploy": "npm run build",
-    "deploy": "gh-page -d build"
-
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
