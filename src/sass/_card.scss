@@ -22,7 +22,8 @@
 	p {
 		margin-top: 8px;
 		color: $GrayishBlue;
-		font-weight: 3;
+		font-weight: 300;
+		font-size: 14px;
 	}
 	.body {
 		width: 100%;
@@ -48,11 +49,13 @@
 	@include cardStyle($Cyan);
 	grid-column: 1/2;
 	grid-row: 2/4;
+	
 }
 .card2 {
 	@include cardStyle($Red);
 	grid-column: 2/3;
 	grid-row: 1/3;
+
 }
 .card3 {
 	@include cardStyle($Orange);
@@ -70,6 +73,10 @@
 		flex-direction: column;
 		width: 100%;
 		align-items: center;
+		grid-gap: 0;
+	}
+	.mb{
+		margin-bottom: 30px;
 	}
 }
 

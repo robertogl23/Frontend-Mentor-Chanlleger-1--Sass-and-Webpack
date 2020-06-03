@@ -4,6 +4,7 @@
 	margin-bottom: 65px;
 	h1 {
 		color: $VeryDarkBlue;
+		font-weight: 500;
 	}
 	p {
 		color: $GrayishBlue;
@@ -14,5 +15,23 @@
 	}
 	.des {
 		margin-top: 10px;
+	}
+}
+@media(max-width:509px){
+	.header{
+		width: 100%;
+		text-align: unset;
+		h1{
+			font-size: 29px;
+
+		}
+		.subtitle{
+			font-size: 29px;
+		}
+		p {
+			color: $GrayishBlue;
+			font-weight: 1;
+			font-size: 18px;
+		}
 	}
 }
